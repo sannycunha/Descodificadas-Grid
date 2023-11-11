@@ -1,0 +1,14 @@
+.container{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    row-gap: 1%;
+    column-gap: 1%;
+    background-image: url(imag/ceu-sobre-as-nuvens-nuvens-cinematograficas-papel-de-parede-5_1562-742.avif);
+    }
+    .item{
+        display: grid;
+       justify-items: stretch;
+    }
+    .item img{
+        width: 100%;
+    }
